@@ -7,5 +7,3 @@ Process: Trivia API, Chuck Norris Jokes API, local storage for score and user in
 Demo: https://kcraymond.github.io/LetsGetTrivial/
 
 Future Development: · Individual pages for each category that has images and animations unique to each page · Using Show and hide functions to introduce more functionality and graphics · Add an animated spinning wheel at the end of the game to select Chuck Norris Joke or play a song · Create your own Whammies avatar option at end of game
-
-Screenshot: https://kcraymond.githob.io/LetsGetTrivial/assests/ScreenShot_1.png
