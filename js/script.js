@@ -41,7 +41,7 @@ $(document).ready(function () {
       // answers = answers.concat(incorrectAnswers);
       answers = [correctAnswer, ...incorrectAnswers];
       //loop through answers
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 5; i++) {
         let randomPosition = Math.floor(Math.random() * answers.length);
         let answersBtn = document.createElement("button");
         answersBtn.setAttribute("class", "w3-btn");
@@ -156,7 +156,7 @@ $(document).ready(function () {
     } else if (
       qCounter < 11 &&
       this.textContent !== correctAnswer &&
-      wrongCount < 4
+      wrongCount < 5
     ) {
       //This is counting but then sending user to home page immediately
       wrongCount++;
@@ -184,6 +184,12 @@ $(document).ready(function () {
           $("#whammies-3").show(3000, function () {
             // console.log("show whammies");
             $("#whammies-3").hide();
+            $("#questions").show();
+          });
+        } else if (wrongCount === 4) {
+          $("#whammies-4").show(3000, function () {
+            // console.log("show whammies");
+            $("#whammies-4").hide();
             $("#questions").show();
           });
         } else {
