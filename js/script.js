@@ -41,7 +41,7 @@ $(document).ready(function () {
       // answers = answers.concat(incorrectAnswers);
       answers = [correctAnswer, ...incorrectAnswers];
       //loop through answers
-      for (let i = 0; i < 5; i++) {
+      for (let i = 0; i < 4; i++) {
         let randomPosition = Math.floor(Math.random() * answers.length);
         let answersBtn = document.createElement("button");
         answersBtn.setAttribute("class", "w3-btn");
