@@ -47,7 +47,10 @@ main {
   background-color: black;
   padding: 5px;
 }
-#whammies {
+#whammies,
+#whammies-2,
+#whammies-3,
+#whammies-4 {
   position: absolute;
   color: white;
 }
