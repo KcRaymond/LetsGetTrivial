@@ -1,0 +1,50 @@
+html {
+  max-width: 1536px;
+  margin: auto;
+  background-color: black;
+}
+
+main {
+  background-image: url(/assets/whammy-music-background.png);
+  background-repeat: no-repeat;
+  background-size: 1536px 1021px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  list-style: none;
+  opacity: 75%;
+}
+#questions {
+  position: absolute;
+  color: white;
+}
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+p {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: gold;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+h3 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: gold;
+  text-align: center;
+}

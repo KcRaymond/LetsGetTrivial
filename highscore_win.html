@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You are a high score winner!!</title>
+    <link rel="stylesheet" href="./css/history-styles.css">
+    <link rel="stylesheet" href="./index.html">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div id="jokes"></div>
+            <picture>
+                <source media="(min-width: 950px)" srcset="./assets/Whammy-game-sports-page.png">
+                <img src="./assets/Whammy-game-sports-page-mobile.png" alt="High Score Winner">
+            </picture>
+        </div>
+        <form id="highScoreForm">
+            Thanks for playing the game!<br>Enter your name to see your score and get chucked!<br><input type="text"
+                placeholder="User Initials" id="username"><br>
+            <input type="submit" value="Get Chucked!">
+        </form>
+
+        <P>Great Job!<br />Enjoy a laugh from your unlocked joke.</P>
+        <div class="button">
+            <div id="winner"></div>
+            <button id="playAgain">Play Again</button>
+        </div>
+        <br>
+    </main>
+
+
+</body>
+
+</html>

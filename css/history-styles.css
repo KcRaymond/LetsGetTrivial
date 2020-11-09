@@ -1,0 +1,120 @@
+html {
+  max-width: 1536px;
+  margin: auto;
+  background-color: black;
+}
+main {
+  background-image: url(../assets/whammy-art-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1536px 1021px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  list-style: none;
+  opacity: 80%;
+}
+#jokes,
+#winner {
+  position: absolute;
+  color: black;
+  max-width: 25%;
+}
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  opacity: 85%;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  list-style: none;
+  max-width: 80%;
+}
+#art,
+#history,
+#music,
+#sports,
+#books {
+  max-width: 150px;
+  border-radius: 20px;
+  background-color: black;
+  padding: 5px;
+}
+#whammy {
+  position: absolute;
+  color: white;
+}
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+p {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: gold;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+.w3-btn {
+  display: flex;
+  flex-flow: row wrap;
+  opacity: 85%;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  list-style: none;
+  max-width: 80%;
+  max-width: 150px;
+  border-radius: 20px;
+  padding: 5px;
+}
+#highScoreForm {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+#winner {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  margin-top: 20px;
+  padding: 30px;
+}
+/* @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px white;
+  }
+  to {
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px white,
+      0 0 50px white;
+  }
+} */

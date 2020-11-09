@@ -1,0 +1,97 @@
+html {
+  max-width: 1536px;
+  margin: 0 auto;
+  background-color: black;
+}
+body {
+  background-image: url(../assets/whammy-home-background.png);
+  opacity: 100%;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  opacity: 80%;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  list-style: none;
+  max-width: 60%;
+}
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  opacity: 85%;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  list-style: none;
+  max-width: 80%;
+}
+#play {
+  max-width: 150px;
+  border-radius: 20px;
+  margin-bottom: 600px;
+  background-color: black;
+}
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  opacity: 85%;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  list-style: none;
+  max-width: 80%;
+}
+p {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: gold;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+h3 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+  color: gold;
+  text-align: center;
+  letter-spacing: 2px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.w3-btn {
+  display: flex;
+  flex-flow: row wrap;
+  opacity: 85%;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  list-style: none;
+  max-width: 80%;
+  max-width: 150px;
+  border-radius: 20px;
+  background-color: black;
+  padding: 7px;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px white;
+  }
+  to {
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px white,
+      0 0 50px white;
+  }
+}
