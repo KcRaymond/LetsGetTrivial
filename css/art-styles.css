@@ -1,3 +1,4 @@
+/* Sets browser styling and background*/
 html {
   max-width: 1536px;
   margin: auto;
@@ -8,6 +9,7 @@ main {
   background-repeat: no-repeat;
   background-size: 1536px 1021px;
 }
+/* Sets responsive parent flexbox container*/
 .container {
   display: flex;
   justify-content: center;
@@ -20,11 +22,13 @@ main {
   list-style: none;
   opacity: 80%;
 }
+/* Sets flexbox items*/
 #questions {
   position: absolute;
   color: white;
   max-width: 35%;
 }
+/* Sets category button styles (flex items*/
 .buttons {
   display: flex;
   flex-flow: row wrap;
@@ -47,6 +51,7 @@ main {
   background-color: black;
   padding: 5px;
 }
+/* Sets whammy gifs*/
 #whammies,
 #whammies-2,
 #whammies-3,
@@ -60,6 +65,23 @@ main {
   justify-content: center;
   margin-bottom: 300px;
 }
+.w3-btn {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  list-style: none;
+  max-width: 80%;
+  border-radius: 15px;
+  padding: 5px;
+  color: black;
+  background-color: gold;
+  font-weight: bolder;
+}
+/* styles text in questions and answers */
 p {
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -77,20 +99,4 @@ h3 {
   color: white;
   text-align: center;
   text-shadow: 2px 2px 5px black;
-}
-.w3-btn {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  list-style: none;
-  max-width: 80%;
-  border-radius: 15px;
-  padding: 5px;
-  color: black;
-  background-color: gold;
-  font-weight: bolder;
 }

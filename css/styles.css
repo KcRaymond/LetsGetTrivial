@@ -1,3 +1,4 @@
+/* Sets browser styling and background*/
 html {
   max-width: 1536px;
   margin: 0 auto;
@@ -8,6 +9,7 @@ body {
   opacity: 100%;
   background-repeat: no-repeat;
 }
+/* Sets responsive parent flexbox container*/
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -21,6 +23,7 @@ body {
   list-style: none;
   max-width: 60%;
 }
+/* Sets flexbox items*/
 .buttons {
   display: flex;
   flex-flow: row wrap;
@@ -33,24 +36,15 @@ body {
   list-style: none;
   max-width: 80%;
 }
+/* Sets play button styles*/
 #play {
-  max-width: 150px;
+  max-width: 200px;
   border-radius: 20px;
   margin-bottom: 600px;
+  padding: 5px;
   background-color: black;
 }
-.buttons {
-  display: flex;
-  flex-flow: row wrap;
-  opacity: 85%;
-  justify-content: space-around;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  list-style: none;
-  max-width: 80%;
-}
+/* styles text in questions and answers */
 p {
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -69,22 +63,6 @@ h3 {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
-}
-.w3-btn {
-  display: flex;
-  flex-flow: row wrap;
-  opacity: 85%;
-  justify-content: space-around;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  list-style: none;
-  max-width: 80%;
-  max-width: 150px;
-  border-radius: 20px;
-  background-color: black;
-  padding: 7px;
 }
 @-webkit-keyframes glow {
   from {
