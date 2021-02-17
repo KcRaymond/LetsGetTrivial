@@ -30,7 +30,7 @@ To install necessary dependencies run the following command:
 
 App is deployed to a GitHub URL. Full functionality can be demoed by clicking the screenshot to load the app.
 
-> <a href= "https://kcraymond.github.io/LetsGetTrivial/"> <img src="assets/screenshot-LetsGetTrivial.png.jpg" width="550"></a>
+> <a href= "https://kcraymond.github.io/LetsGetTrivial/"> <img src="assets/screenshot-LetsGetTrivial.png" width="550"></a>
 
 ## Contributing Information:
 
