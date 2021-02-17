@@ -1,7 +1,7 @@
 /* Sets browser styling and background*/
 html {
   max-width: 1536px;
-  margin: 0 auto;
+  margin: 0;
   background-color: black;
 }
 body {
@@ -55,11 +55,11 @@ p {
 }
 h3 {
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 22px;
   color: gold;
   text-align: center;
-  letter-spacing: 2px;
+  font-weight: bolder;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;

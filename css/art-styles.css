@@ -65,7 +65,8 @@ main {
   justify-content: center;
   margin-bottom: 300px;
 }
-.w3-btn {
+.w3-btn,
+.playAgain {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
