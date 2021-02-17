@@ -1,7 +1,7 @@
 /* Sets browser styling and background*/
 html {
   max-width: 1536px;
-  margin: 0;
+  margin: 0 auto;
   background-color: black;
 }
 body {
